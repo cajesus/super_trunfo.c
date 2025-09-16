@@ -83,5 +83,4 @@ printf("Digite o numero de pontos turisticos 2:\n");
 
     return 0;
 }
- // Testado ok.. 
-
+ // Testado ok..
