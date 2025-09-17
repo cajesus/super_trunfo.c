@@ -8,7 +8,7 @@ int main() { //onde o programa comeca
     float area1,area2;                    // Area em km²1 e 2                                       (armazena numeros decimais)
     float pib1,pib2;                     // PIB 1 e 2
     int pontosTuristicos1,pontosTuristicos2;         // Numero de pontos turísticos 1 e 2  
-
+float Densidade;           //Divida a população da cidade pela sua área
     
     // Captura de dados usuariio
     
