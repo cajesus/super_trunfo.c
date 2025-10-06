@@ -8,10 +8,10 @@ int main() { //onde o programa comeca
     float area1,area2;                    // Area em km²1 e 2                                       (armazena numeros decimais)
     float pib1,pib2;                     // PIB 1 e 2
     int pontosTuristicos1,pontosTuristicos2;         // Numero de pontos turísticos 1 e 2  
-    float Densidade1;                  // dividir populaçao por sua area
-    float percapita;    // dividir pib por população
+    float Densidade1,Densidade2;                  // dividir populaçao por sua area
+    float percapita,percapita2;    // dividir pib por população
     
-
+/*
     // Captura de dados usuariio
     
     printf("Digite a letra do Estado 1:\n"); // imprime a mensagem ao usuario
@@ -34,9 +34,9 @@ printf("Digite o PIB (em bilhoes de reais) 1:\n");
 
 printf("Digite o numero de pontos turisticos 1:\n");
     scanf("%d", &pontosTuristicos1);
+*/
 
 
-/*
     //captura dos dados do usuario carta 2
 
     printf("Digite a letra do estado 2:\n"); 
@@ -59,9 +59,9 @@ printf("Digite o PIB (em bilhoes de reais) 2:\n");
     
 printf("Digite o numero de pontos turisticos 2:\n");
     scanf("%d", &pontosTuristicos2);
-*/
 
 
+/*
     // Exibição dos dados coletados carta 1
     printf("\nCarta 1 \n");
     printf("Estado: %c\n", Estado1);
@@ -75,9 +75,9 @@ printf("Digite o numero de pontos turisticos 2:\n");
     Densidade1 = (float)populacao1 / area1; // divisao
     printf("Densidade Populacional %.3f\n", Densidade1);
 
-    percapita = (float)pib1 / populacao1;
+    percapita = (float)pib1 / populacao1; // Divisao
     printf("Pib per capita: %.2f\n", percapita);
-    /*
+    */
     // Exibição dos dados coletados carta 2 
     printf("\nCarta 2 \n");
     printf("Estado  %c\n", Estado2);
@@ -88,10 +88,14 @@ printf("Digite o numero de pontos turisticos 2:\n");
     printf("PIB : %.2f bilhoes de reais 2\n", pib2);
     printf("Numero de Pontos Turisticos : %d\n", pontosTuristicos2);
 
-*/
+Densidade2 = (float)populacao2 / area2; // divisao
+    printf("Densidade Populacional %.3f\n", Densidade2);
+
+    percapita2 = (float)pib2 / populacao2; // Divisao
+    printf("Pib per capita: %.2f\n", percapita2);
 
 
-return 0;
+ return 0;
 }
  // Testado ok.. 
 
