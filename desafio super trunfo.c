@@ -8,6 +8,8 @@ int main() { //onde o programa comeca
     float area1,area2;                    // Area em km²1 e 2                                       (armazena numeros decimais)
     float pib1,pib2;                     // PIB 1 e 2
     int pontosTuristicos1,pontosTuristicos2;         // Numero de pontos turísticos 1 e 2  
+//float Densidade;                  // dividir populaçao por sua area
+
 
     
     // Captura de dados usuariio
@@ -32,6 +34,10 @@ printf("Digite o PIB (em bilhoes de reais) 1:\n");
 
 printf("Digite o numero de pontos turisticos 1:\n");
     scanf("%d", &pontosTuristicos1);
+
+//printf("Densidade populacional")
+
+
 
 
     //captura dos dados do usuario carta 2
