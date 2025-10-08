@@ -11,7 +11,7 @@ int main() { //onde o programa comeca
     float Densidade1,Densidade2;                  // dividir populaçao por sua area
     float percapita,percapita2;    // dividir pib por população
     
-/*
+
     // Captura de dados usuariio
     
     printf("Digite a letra do Estado 1:\n"); // imprime a mensagem ao usuario
@@ -34,7 +34,7 @@ printf("Digite o PIB (em bilhoes de reais) 1:\n");
 
 printf("Digite o numero de pontos turisticos 1:\n");
     scanf("%d", &pontosTuristicos1);
-*/
+
 
 
     //captura dos dados do usuario carta 2
@@ -61,7 +61,7 @@ printf("Digite o numero de pontos turisticos 2:\n");
     scanf("%d", &pontosTuristicos2);
 
 
-/*
+
     // Exibição dos dados coletados carta 1
     printf("\nCarta 1 \n");
     printf("Estado: %c\n", Estado1);
@@ -77,7 +77,7 @@ printf("Digite o numero de pontos turisticos 2:\n");
 
     percapita = (float)pib1 / populacao1; // Divisao
     printf("Pib per capita: %.2f\n", percapita);
-    */
+    
     // Exibição dos dados coletados carta 2 
     printf("\nCarta 2 \n");
     printf("Estado  %c\n", Estado2);
@@ -93,6 +93,26 @@ Densidade2 = (float)populacao2 / area2; // divisao
 
     percapita2 = (float)pib2 / populacao2; // Divisao
     printf("Pib per capita: %.2f\n", percapita2);
+
+
+            // Decisoes if e else cartas 1 e 2//
+               if(area1 > area2){
+            printf("\nComparação de Cartas (Area m2)\n");
+
+            printf("A Vencedora e Carta 1\n");
+            printf("A Area da carta 1 : %s, (%s) %.2f\n", nomeCidade1,codigo1,area1);
+            printf("A Area da carta 2 : %s, (%s) %.2f\n", nomeCidade2,codigo2,area2);
+}          
+            else{
+           printf("\nComparação de Cartas (Area m2)\n");
+
+            printf("A Vencedora e Carta 2\n");
+            printf("A Area da carta 1 : %s, (%s) %.2f\n",nomeCidade1,codigo1,area1);
+            printf("A Area da carta 2 : %s, (%s) %.2f\n", nomeCidade2,codigo2,area2);
+}
+
+
+
 
 
  return 0;
