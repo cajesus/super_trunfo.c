@@ -97,20 +97,19 @@ Densidade2 = (float)populacao2 / area2; // divisao
 
             // Decisoes if e else cartas 1 e 2//
                if(area1 > area2){
-            printf("\nComparação de Cartas (Area m2)\n");
+            printf("\nComparação de Cartas (Area Km2)\n");
 
-            printf("A Vencedora e Carta 1\n");
-            printf("A Area da carta 1 : %s, (%s) %.2f\n", nomeCidade1,codigo1,area1);
-            printf("A Area da carta 2 : %s, (%s) %.2f\n", nomeCidade2,codigo2,area2);
+            printf("A Area da carta 1 : %s, (%s) %.2f km2\n", nomeCidade1,codigo1,area1);
+            printf("A Area da carta 2 : %s, (%s) %.2f km2\n", nomeCidade2,codigo2,area2);
+            printf("A Vencedora e Carta 1""(%s)\n", nomeCidade1);
 }          
             else{
-           printf("\nComparação de Cartas (Area m2)\n");
+           printf("\nComparação de Cartas (Area Km2)\n");
 
-            printf("A Vencedora e Carta 2\n");
-            printf("A Area da carta 1 : %s, (%s) %.2f\n",nomeCidade1,codigo1,area1);
-            printf("A Area da carta 2 : %s, (%s) %.2f\n", nomeCidade2,codigo2,area2);
+            printf("A Area da carta 1 : %s, (%s) %.2f km2\n",nomeCidade1,codigo1,area1);
+            printf("A Area da carta 2 : %s, (%s) %.2f km2\n", nomeCidade2,codigo2,area2);
+            printf("A Vencedora e Carta 2""(%s)\n", nomeCidade2);
 }
-
 
 
 
